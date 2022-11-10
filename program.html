@@ -13,8 +13,8 @@ sitemap:
 </header>
 
 
-{% assign sorted = (site.program | sort: 'order') %}
-{% assign sortedprojects = (site.talks | sort: 'order') %}
+{% assign sorted = (site.research | sort: 'order') %}
+{% assign sortedprojects = (site.projects | sort: 'order') %}
 
 {% for pl in sorted %}
 	{% if pl.projects.size > 0 %}
