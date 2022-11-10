@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Program
 description: 
 sitemap:
     priority: 0.7
@@ -13,8 +13,8 @@ sitemap:
 </header>
 
 
-{% assign sorted = (site.research | sort: 'order') %}
-{% assign sortedprojects = (site.projects | sort: 'order') %}
+{% assign sorted = (site.program | sort: 'order') %}
+{% assign sortedprojects = (site.talks | sort: 'order') %}
 
 {% for pl in sorted %}
 	{% if pl.projects.size > 0 %}
