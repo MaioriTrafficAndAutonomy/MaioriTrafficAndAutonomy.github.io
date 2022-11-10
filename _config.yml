@@ -1,10 +1,10 @@
 # Site
-title:              'Piccoli Lab '
-bio:                'A Mathematical Biology Lab at Rutgers University–Camden'
-description:        "Our research group uses computational skills to study a host of fields ranging from traffic flow to Circadian Rhythms."
+title:              'Traffic And Autonomy Conference'
+bio:                'June 21-23 2023'
+description:        "Reginna Palace Hotel, Maiori Italy"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Lab-Piccoli.github.io" # the base hostname & protocol for your site
+url: "https://MaioriTrafficAndAutonomy.github.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -46,15 +46,15 @@ analytics-id:       "default"
 twitter:            
 facebook:           
 instagram:          
-github:             Lab-Piccoli
+github:             MaioriTrafficAndAutonomy
 
 plugins:
   - jekyll-seo-tag
 
 # personal
-location:           Rutgers University–Camden
+location:           Maiori Italy
 phone:              999-999-9999
-email:              piccoli@camden.rutgers.edu
+email:              TBT
 
 # Gems
 gems:
