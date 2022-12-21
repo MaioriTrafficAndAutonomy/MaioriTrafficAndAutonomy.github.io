@@ -5,7 +5,7 @@ order: 1
 
 name: "Math Talk 1"
 
-description: "<p>This is a sample descrpition of a project with a figure  </p>"
+description: "<p>This is a sample descrpition of a project </p>"
 
 
 
@@ -15,5 +15,5 @@ students:
 
 publications: 
 
-image: /images/MapOfNJ.png
+
 ---
