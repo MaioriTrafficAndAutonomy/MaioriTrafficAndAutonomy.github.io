@@ -1,3 +1,9 @@
 <ul class="links">
-	<li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+		<li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+		<li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/program/" | absolute_url }}">Program</a></li>
+	<li class="{% if page.url contains '/team/' %} active {% endif %}"><a href="{{ "/registration/" | absolute_url }}">Registration</a></li>
+    <li class="{% if page.url contains '/research/' %} active {% endif %}"><a href="{{ "/venue/" | absolute_url }}">Venue</a></li>
+    <li class="{% if page.url contains '/publications' %} active {% endif %}"><a href="{{ "/accomodation/" | absolute_url }}">Accomodations</a></li>
+    <li class="{% if page.url contains '/teaching' %} active {% endif %}"><a href="{{ "/contact/" | absolute_url }}">Contact</a></li>
+
 </ul>
