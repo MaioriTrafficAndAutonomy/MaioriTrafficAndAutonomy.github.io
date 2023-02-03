@@ -1,6 +1,6 @@
 # Site
-title:              ' '
-bio:                ' '
+title:              
+bio:                
 description:        "Reginna Palace Hotel, Maiori Italy"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
