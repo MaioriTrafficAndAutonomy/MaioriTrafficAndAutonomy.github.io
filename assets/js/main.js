@@ -134,14 +134,14 @@
 		// Nav Panel.
 
 			// Toggle.
-				//$navPanelToggle = $(
-				//	'<a href="#navPanel" id="navPanelToggle">Menu</a>'
-				//)
-				//	.appendTo($wrapper);
+				$navPanelToggle = $(
+					'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+				)
+					.appendTo($wrapper);
 
 				// Change toggle styling once we've scrolled past the header.
 					$header.scrollex({
-						bottom: '1vh',
+						bottom: '5vh',
 						enter: function() {
 							$navPanelToggle.removeClass('alt');
 						},
