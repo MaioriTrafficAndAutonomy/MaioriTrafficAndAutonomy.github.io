@@ -104,8 +104,8 @@
 
 		var	$window = $(window),
 			$body = $('body'),
-			$wrapper = $(<img src="/images/PosterPic.png" >),
-			$header = $(<img src="/images/PosterPic.png" >),
+			$wrapper = $('wrapper'),
+			$header = $('header'),
 			$nav = $('#nav'),
 			$main = $('#main'),
 			$navPanelToggle, $navPanel, $navPanelInner;
@@ -141,7 +141,7 @@
 
 				// Change toggle styling once we've scrolled past the header.
 					$header.scrollex({
-						bottom: '5vh',
+						bottom: '1vh',
 						enter: function() {
 							$navPanelToggle.removeClass('alt');
 						},
