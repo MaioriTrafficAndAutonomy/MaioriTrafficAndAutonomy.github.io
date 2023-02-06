@@ -104,7 +104,7 @@
 
 		var	$window = $(window),
 			$body = $('body'),
-			$wrapper = $('#wrapper'),
+			$wrapper = $(<img src="/images/PosterPic.png" >),
 			$header = $(<img src="/images/PosterPic.png" >),
 			$nav = $('#nav'),
 			$main = $('#main'),
