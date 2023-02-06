@@ -105,7 +105,7 @@
 		var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#wrapper'),
-			$header = $(<img src="dog.jpg" alt="A black, brown, and white dog wearing a kerchief">),
+			$header = $(<img src="/images/PosterPic.png" >),
 			$nav = $('#nav'),
 			$main = $('#main'),
 			$navPanelToggle, $navPanel, $navPanelInner;
