@@ -3195,7 +3195,7 @@
 		}
 
 		#intro + #header {
-			margin-top: -20rem;
+			margin-top: -2rem;
 		}
 
 			#intro + #header .logo {
@@ -3253,7 +3253,7 @@
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 5vh;
+				min-height: 90vh;
 			}
 
 				#intro p br {
