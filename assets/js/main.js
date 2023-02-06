@@ -104,8 +104,8 @@
 
 		var	$window = $(window),
 			$body = $('body'),
-			$wrapper = $('wrapper'),
-			$header = $('header'),
+			$wrapper = $('#wrapper'),
+			$header = $('#header'),
 			$nav = $('#nav'),
 			$main = $('#main'),
 			$navPanelToggle, $navPanel, $navPanelInner;
